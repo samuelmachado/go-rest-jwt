@@ -3,7 +3,7 @@ package utils
 import (
 	"encoding/json"
 	"fmt"
-	"./models"
+	"../models"
 	"log"
 	"net/http"
 	"os"
@@ -53,7 +53,7 @@ func TokenVerifyMiddleWare(next http.HandlerFunc) http.HandlerFunc {
 					return nil, fmt.Errorf("There was an error")
 				}
 
-				return []byte("secret"), nil
+				return []byte("SECRET"), nil
 			})
 
 			if error != nil {

@@ -6,9 +6,9 @@ import (
 	"log"
 	"net/http"
 
-	"./models"
-	"./utils"
-
+	"../models"
+	"../utils"
+	"../repository/user"
 	"golang.org/x/crypto/bcrypt"
 )
 

@@ -2,7 +2,7 @@ package userRepository
 
 import (
 	"database/sql"
-	"./models"
+	"../../models"
 	"log"
 )
 
