@@ -1,0 +1,5 @@
+go get github.com/lib/pq
+go get -u github.com/gorilla/mux
+go get -u github.com/dgrijalva/jwt-go
+go get -u github.com/gorilla/mux
+ go get -u github.com/davecgh/go-spew/spew
